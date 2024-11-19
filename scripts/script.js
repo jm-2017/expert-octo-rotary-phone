@@ -7,7 +7,7 @@
 
 
 $("button").click(function(){
-    $.getJSON("https://github.com/jm-2017/expert-octo-rotary-phone/blob/main/data.json", function(result){
+    $.getJSON("https://gist.github.com/jm-2017/d323b2a1c963d83216abc89878dcff10", function(result){
       $.each(result, function(i, field){
         $("div").append(field + " ");
       });
