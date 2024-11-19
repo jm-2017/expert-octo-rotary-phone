@@ -7,7 +7,7 @@
 
 
 $("button").click(function(){
-    $.getJSON("https://gist.github.com/jm-2017/d323b2a1c963d83216abc89878dcff10", function(result){
+    $.getJSON("https://gist.githubusercontent.com/jm-2017/141ff99966a67eac70f2c3d91aa2615f/raw/286bf0d70f58895624e265232bcaf2b9f486a02d/data.json", function(result){
       $.each(result, function(i, field){
         $("div").append(field + " ");
       });
